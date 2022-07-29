@@ -1,1 +1,5 @@
-@extends('layouts.app')
+@extends('layouts.index')
+
+@section('name')
+    
+@endsection
