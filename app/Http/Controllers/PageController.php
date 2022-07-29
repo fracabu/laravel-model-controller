@@ -3,13 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Page;
+use App\Movie;
 class PageController extends Controller
 {
 
     function index () {
 
-        $data = Page::all();
+        $data = Movie::all();
         dump($data);
         return view('index');
     }
